@@ -80,7 +80,7 @@
 				<artifactId>maven-jar-plugin</artifactId>
 				<version>2.3.1</version>
 				<configuration>
-					<outputDirectory>/</outputDirectory>
+					<outputDirectory>{user.home}</outputDirectory>
 				</configuration>
 			</plugin>
 			
