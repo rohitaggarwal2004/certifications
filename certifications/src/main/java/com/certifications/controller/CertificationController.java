@@ -19,7 +19,7 @@ public class CertificationController {
 	@GetMapping(path = "/list")
 	public List<Certification> getCertifications() {
 		List<Certification> list = Arrays.asList(
-				new Certification("Google Certified Profressional Architect", "GCP", "", "2019"),
+				new Certification("Rohit -Google Certified Profressional Architect", "GCP", "", "2019"),
 				new Certification("AWS Certified Associate  Architect", "AWS CAA", "", "2018"),
 				new Certification("AWS Certified Associate  Developer", "AWS DA", "", "2018"),
 				new Certification("Java EJB Certified", "SCBCD", "", ""),
