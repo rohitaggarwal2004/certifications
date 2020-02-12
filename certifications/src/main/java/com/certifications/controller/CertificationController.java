@@ -23,7 +23,7 @@ public class CertificationController {
 				new Certification("AWS Certified Associate  Architect", "AWS CAA", "", "2018"),
 				new Certification("AWS Certified Associate  Developer", "AWS DA", "", "2018"),
 				new Certification("Java EJB Certified", "SCBCD", "", ""),
-				new Certification("Sun Java Certified Develper (java 6)", "SCP", "", ""));
+				new Certification("Sun Java Certified Develper(java 6)", "SCP", "", ""));
 		for (Iterator<Certification> iterator = list.iterator(); iterator.hasNext();) {
 			Certification certificate = iterator.next();
 			logger.info("Rohit Aggarwal " + certificate.toString());
